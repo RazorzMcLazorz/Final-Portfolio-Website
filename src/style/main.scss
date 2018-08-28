@@ -1,0 +1,23 @@
+@import 'home';
+@import 'nav_bar';
+@import 'projects';
+@import 'about_me';
+@import 'contact';
+@import 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2a;
+    overflow-x: hidden;
+}
+.html {
+    background-color: #2a2a2a;
+    z-index: -1;
+    overflow-x: hidden;
+}
+.body {
+    background-color: #2a2a2a;
+    z-index: -1;
+    overflow-x: hidden;
+}

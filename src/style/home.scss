@@ -1,0 +1,156 @@
+// video header
+.videoheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin-bottom: 100px;
+    width: 100vw;
+    height: 1000px;
+}
+
+.NameBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 320px;
+    border-style: solid;
+    border-width: 1px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: #44d9e6;
+    color: white;
+    background: transparent;
+    font-size: 25px;
+    z-index: 1;
+    animation: MyPhotoFrames linear 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+}
+
+@keyframes MyPhotoFrames{
+    0% {
+        transform:  translate(0px,0px)  rotate(0deg) ;
+    }
+    15% {
+        transform:  translate(-25px,0px)  rotate(-5deg) ;
+    }
+    30% {
+        transform:  translate(20px,0px)  rotate(3deg) ;
+    }
+    45% {
+        transform:  translate(-15px,0px)  rotate(-3deg) ;
+    }
+    60% {
+        transform:  translate(10px,0px)  rotate(2deg) ;
+    }
+    75% {
+        transform:  translate(-5px,0px)  rotate(-1deg) ;
+    }
+    100% {
+        transform:  translate(0px,0px)  rotate(0deg) ;
+    }
+}
+
+.VIDEO {
+    overflow: hidden;
+    position: absolute; 
+    z-index: 1;
+    background-size: 100vw 100vw;
+}
+
+.PreviewProjects {
+    display:flex;
+    float:right;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    height:400px;
+    width: 180px;
+    color: white;
+    padding-top: 10px;
+    font-size: 2em;
+    margin-right:15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #44d9e6;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+.MyPhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    
+
+.MyPhoto img {
+    width: 200px;
+    height: 400px;
+}
+      
+.SummaryOfEducation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+    min-height: 300px;
+    max-height:100%;
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: #44d9e6;
+    color: white;
+}
+
+.codinglogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.codinglogos img {
+    height: 40px;
+    width: 40px;
+}
+
+.whatiknow {
+    width: 70%;
+}
+
+.whatiknow img {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 3px;
+}
+
+.CodesIKnow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.CodesIKnow div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 35%;
+}
+
+.CodesIKnow div img {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,57 @@
+/* Contact Me */
+
+.InputofContactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 850px;
+    width: 500px;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 0px;
+    border-right-width: 1px;
+    border-color: #44d9e6;
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        label {
+            color: white;
+            input {
+                color: white;
+                .norm {
+
+                }
+                
+            }
+        }
+        input {
+            // Submit Button
+            color: white;
+        }
+    }
+}
+
+.area{
+    height: 25px;
+    width: 400px;
+}
+
+.ContactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    width: 500px;
+    color: white;
+}
+
+.Contactbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

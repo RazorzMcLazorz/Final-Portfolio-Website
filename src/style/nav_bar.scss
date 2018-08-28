@@ -1,0 +1,58 @@
+.Header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    overflow: hidden;
+    z-index: 2;
+}
+.Header nav a:hover {
+    text-decoration: none;
+}
+.Header nav ul Link:link {
+    text-decoration: none;
+    outline: none;
+}
+.Header nav ul div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    text-decoration: none;
+    outline: none;
+}
+.Header nav ul Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    text-decoration: none;
+    outline: none;
+}
+.Selected {
+    -webkit-clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border-style: solid;
+    border-color: #44d9e6;
+}
+.NotSelected {
+    -webkit-clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    color: white;
+}
+.NotSelected:hover {
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+}
+.NotSelected a {
+    text-decoration: none;
+    color: white;
+}

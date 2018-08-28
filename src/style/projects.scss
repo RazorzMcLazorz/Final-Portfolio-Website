@@ -1,0 +1,53 @@
+/* Projects */
+
+.Projectscentering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// border design
+.Projectscentering div {
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #44d9e6;
+    color: white;
+    width: 90%;
+}
+
+.Tag {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.BestProjectPreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10%;
+    height: 600px;
+}
+
+.LatestProjectPreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10%;
+    height: 400px;
+}
+
+.PastProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10%;
+    height: 400px;
+    margin-bottom: 200px;
+}
