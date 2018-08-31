@@ -9,8 +9,6 @@ class Footer extends Component {
                         <div>Powered by Nathaniel Young using</div> 
                         <img src = "\assets\React1.png"></img>
                         <a>React</a>
-                        <img src = "\assets\jsx.png"></img>
-                        <a>JSX</a>
                         <img src = "\assets\redux.png"></img>
                         <a>Redux</a>
                         <img src = "\assets\HTML.png"></img>

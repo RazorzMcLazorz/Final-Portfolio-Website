@@ -64,7 +64,7 @@ export default class Contact extends Component {
                         <a>Or</a>
                         <a className="MYLinksTop" >Manually message me/call at: </a>
                         <a id="MYLinksTop2" className="MYLinksTop3" >801 - 687 - 3065</a>
-                        <a className="MYLinksTop3" >young.nathaniel95@gmail.com</a>
+                        <a className="MYLinksTop3" >nateyoungdev@gmail.com</a>
                         <a className="MYLinksTop">To make it fast here's some links to the Emails</a>
                         <div className="EmailLinks">
                             <Link to="/outlook" className="projects"><a><img src = "\assets\gmail.png"></img></a></Link>

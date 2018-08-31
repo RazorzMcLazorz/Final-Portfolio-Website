@@ -52,6 +52,17 @@ export default class Project extends Component {
                             <div className="Tag">
                                 Past Projects
                             </div>
+                            <div className="Box-Container">
+                                <div>
+
+                                </div>
+                                <div>
+
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
