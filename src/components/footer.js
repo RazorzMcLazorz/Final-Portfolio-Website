@@ -6,9 +6,17 @@ class Footer extends Component {
         return(
             <div className="foot">
                 <div className="footLeft">
-                    <a>
-                        Powered by Nathaniel Young using <img src = "\assets\React1.png"></img>React <img src = "\assets\jsx.png"></img>JSX <img src = "\assets\redux.png"></img>Redux <img src = "\assets\HTML.png"></img>HTML <img src = "\assets\SCSS.png"></img>SCSS
-                    </a>
+                        <div>Powered by Nathaniel Young using</div> 
+                        <img src = "\assets\React1.png"></img>
+                        <a>React</a>
+                        <img src = "\assets\jsx.png"></img>
+                        <a>JSX</a>
+                        <img src = "\assets\redux.png"></img>
+                        <a>Redux</a>
+                        <img src = "\assets\HTML.png"></img>
+                        <a>HTML</a>
+                        <img src = "\assets\SCSS.png"></img>
+                        <a>SCSS</a>
                 </div>
                 <div className="footRight">
                     <a>
