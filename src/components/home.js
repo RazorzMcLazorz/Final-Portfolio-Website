@@ -48,6 +48,9 @@ export default class Home extends Component {
                         <a>
                             Nathaniel P Young
                         </a>
+                        <a>
+                            UI / UX Designer
+                        </a>
                     </div>
                     </div>
                     <div className = "PreviewProjects">
