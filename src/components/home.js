@@ -64,9 +64,24 @@ export default class Home extends Component {
                     </div>
                     
                     <div className = "MyPhoto">
+                    <div>
                         <img src = "\assets\coding.jpg"></img>
+                        <a>
+                            dwasd
+                        </a>
+                    </div>
+                    <div>
                         <img src = "\assets\Me2.jpg"></img>
+                        <a>
+                            dqwsa
+                        </a>
+                    </div>
+                    <div>
                         <img src = "\assets\Library.jpg"></img>
+                        <a>
+                            edawsd
+                        </a>
+                    </div>
                     </div>
                 </div>
                 <div className = "SummaryOfEducation">
