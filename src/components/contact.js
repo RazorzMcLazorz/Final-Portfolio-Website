@@ -53,28 +53,26 @@ export default class Contact extends Component {
                     </nav>
                 </div> 
                 <div className="Contactbox">
-                    <div className="InputofContactMe">
-                    {/* FORM */}
-                    <form onSubmit={this.handleSubmit}>
-                        <label>
-                            Name: <input className="norm" type="text" value={this.state.value} onChange={this.handleChange} />
-                        </label>
-                        <label>
-                            Email: <input className="norm" type="text" onChange={this.handleChange} />
-                        </label>
-                        <label>
-                            Company: <input className="norm" type="text" onChange={this.handleChange} />
-                        </label>
-                        <label>
-                            Comment: <input className="area" type="textbox" onChange={this.handleChange} />
-                        </label>
-                        <input type="submit" value="Submit" />
-                    </form>
-                    </div>
+                    
                     <div className = "ContactInfo">
-                        <a>801 - 687 - 3065</a>
-                        <a>young.nathaniel95@gmail.com</a>
-                        <a>Eagle Mountain, UT</a>
+                        <a>You can find me at these links</a>
+                        <a className="MYLinks">
+                            <Link to="/github"><i class="fab fa-github-square"></i></Link>
+                            <Link to="/facebook"><i class="fab fa-facebook"></i></Link>
+                            <Link to="/linkedin"><i class="fab fa-linkedin"></i></Link>
+                        </a>
+                        <a>Or</a>
+                        <a className="MYLinksTop" >Manually message me/call at: </a>
+                        <a id="MYLinksTop2" className="MYLinksTop3" >801 - 687 - 3065</a>
+                        <a className="MYLinksTop3" >young.nathaniel95@gmail.com</a>
+                        <a className="MYLinksTop">To make it fast here's some links to the Emails</a>
+                        <div className="EmailLinks">
+                            <Link to="/outlook" className="projects"><a><img src = "\assets\gmail.png"></img></a></Link>
+                            <Link to="/gmail" className="projects"><a><img src = "\assets\Outlook.png"></img></a></Link>
+                            <Link to="/yahoo" className="projects"><a><img src = "\assets\yahoo.png"></img></a></Link>
+                            <Link to="/inbox" className="projects"><a><img src = "\assets\inbox.png"></img></a></Link>
+                            <Link to="/icloud" className="projects"><a><img src = "\assets\icloud.png"></img></a></Link>
+                        </div>
                     </div>
                 </div>
                 <Footer />
