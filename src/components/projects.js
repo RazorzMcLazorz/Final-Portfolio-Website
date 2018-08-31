@@ -54,31 +54,58 @@ export default class Project extends Component {
                             </div>
                             <a className="Box-Container">
                                 <div>
-
+                                    <img></img>
+                                    <a>
+                                        fdsgsf
+                                    </a>
                                 </div>
                                 <div>
-
+                                    <img></img>
+                                    <a>
+                                        work
+                                    </a>
                                 </div>
                                 <div>
-
+                                    <img></img>
+                                    <a>
+                                        dsadfafdsa
+                                    </a>
                                 </div>
                                 <div>
-
+                                    <img></img>
+                                    <a>
+                                        dfgdsfgsgds
+                                    </a>
                                 </div>
                                 <div>
+                                    <img></img>
+                                    <a>
 
+                                    </a>
                                 </div>
                                 <div>
+                                    <img></img>
+                                    <a>
 
+                                    </a>
                                 </div>
                                 <div>
+                                    <img></img>
+                                    <a>
 
+                                    </a>
                                 </div>
                                 <div>
+                                    <img></img>
+                                    <a>
 
+                                    </a>
                                 </div>
                                 <div>
-                                    
+                                    <img></img>
+                                    <a>
+                                        
+                                    </a>
                                 </div>
                             </a>
                         </div>
