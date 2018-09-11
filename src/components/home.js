@@ -56,7 +56,11 @@ export default class Home extends Component {
                     <div className = "PreviewProjects">
                         Projects
                         <a>
-
+                            <a className="PreviewProject">
+                                <Link to="/madlibs" className="projectBox">
+                                    <img src="\assets\MadLibsPic.png"></img>
+                                </Link>
+                            </a>
                         </a>
                         <a>
 
@@ -91,7 +95,7 @@ export default class Home extends Component {
                         The Languages I know and familiar with are:
                     </div>
                     <div className="CodesIKnow">
-                        <div>
+                        <div id="left">
                             <a>
                                 <img src = "\assets\ES6LOGO.svg"></img> JavaScript
                             </a>
@@ -110,8 +114,11 @@ export default class Home extends Component {
                             <a>
                                 <img src = "\assets\jsx.png"></img> JSX
                             </a>
+                            <a>
+                                <img src="\assets\mysql.png"></img> MySQL
+                            </a>
                         </div>
-                        <div>
+                        <div id="right">
                             <a>
                                 <img src = "\assets\SCSS.png"></img> SCSS
                             </a>
@@ -131,6 +138,9 @@ export default class Home extends Component {
                                 <img src = "\assets\redux.png"></img> Redux
                             </a>
                         </div>
+                    </div>
+                    <div className="WhatIKnowTitle">
+                        The Languages I know and familiar with are:
                     </div>
                 </div>
                     <Footer />  

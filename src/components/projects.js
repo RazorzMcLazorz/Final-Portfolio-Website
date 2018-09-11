@@ -50,63 +50,15 @@ export default class Project extends Component {
                         </div>
                         <div className="PastProjects">
                             <div className="Tag">
-                                Past Projects
+                                Past Projects (Click Projects)
                             </div>
                             <a className="Box-Container">
-                                <div>
-                                    <img></img>
+                                <Link to="/madlibs" className="projectBox">
+                                    <img src="\assets\MadLibsPic.png"></img>
                                     <a>
-                                        fdsgsf
+                                        One of my Projects that uses this.state.values and changes by setState
                                     </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-                                        work
-                                    </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-                                        dsadfafdsa
-                                    </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-                                        dfgdsfgsgds
-                                    </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-
-                                    </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-
-                                    </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-
-                                    </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-
-                                    </a>
-                                </div>
-                                <div>
-                                    <img></img>
-                                    <a>
-                                        
-                                    </a>
-                                </div>
+                                </Link>
                             </a>
                         </div>
                     </div>
