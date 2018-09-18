@@ -78,7 +78,7 @@ export default class Project extends Component {
                                     <img src="./assets/BlackJackWireFrame.png"></img>
                                 </div>
                                     <a>
-                                        as you can see in the picture its not complete at the moment but im still working on it and have been, just while im doing the project im learning React. The blackjack Project has a low fidelity wire frame seen in the second picture, other parts of the user story is not shown, but if you want to see them just send me and email and i can send them.
+                                        as you can see in the picture its not complete at the moment but im still working on it and have been, just while im doing the project im learning React. The blackjack Project has a low fidelity wire frame seen in the second picture, other parts of the user story is not shown, but if you want to see them just send me an email and i can send them.
                                     </a>
                                 </div>
                                 
@@ -86,16 +86,35 @@ export default class Project extends Component {
                         </div>
 
                         <div className="PastProjects">
+
                             <div className="Tag">
                                 Past Projects (Click Projects)
                             </div>
+
                             <a className="Box-Container">
+
                                 <Link to="/madlibs" className="projectBox">
-                                    <img src="\assets\MadLibsPic.png"></img>
-                                    <a>
-                                        One of my Projects that uses this.state.values and changes by setState
-                                    </a>
+                                    <div id="pastTitle">
+                                        <a>
+                                            Madlibs Project
+                                        </a>
+                                    </div>
+                                    <div id="hoverInfo">
+                                        <div id="IMGS">
+                                            <img src="\assets\MadLibsPic.png"></img>
+                                            <img src="\assets\madlibsGen.png"></img>
+                                        </div>
+                                        <div id="Text">
+                                            <a>
+                                                Madlibs uses this.state.values and changes the state by setState to the value.
+                                                
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    
                                 </Link>
+
                             </a>
                         </div>
                         

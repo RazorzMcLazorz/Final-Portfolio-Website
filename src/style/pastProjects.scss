@@ -1,0 +1,155 @@
+.PastProjects {
+    .Box-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 450px;
+        height: 345px;
+        border: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-color: #333333;
+        .projectBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+            text-decoration: none;
+            border-color: #333333;
+            #pastTitle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-color: #333333 !important;
+                height: 325px;
+                width: 450px;
+                background-color: #333333;
+                a{
+
+                }
+            }
+            #hoverInfo {
+                visibility: hidden;
+            }
+        }
+        .projectBox:hover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+            text-decoration: none;
+            #pastTitle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-color: #333333;
+                height: 45px;
+                width: 450px;
+                background-color: #333333;
+                a{
+
+                }
+            }
+            #hoverInfo {
+                visibility: visible;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 450px;
+                height: 310px;
+                border-color: #333333;
+                top: 0;
+                #IMGS {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    border-color: #333333;
+                    width: 150px;
+                    height: 300px;
+                    background-color: #333333;
+                    img {
+                        width: 150px;
+                        height: 150px;
+                        background-color: #333333;
+                    }
+                    img:hover {
+                        position: absolute;
+                        width: 300px;
+                        height: 300px;
+                        background-color: #333333;
+                    }
+                }
+                #Text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    border-color: #333333;
+                    width: 300px;
+                    min-height: 300px;
+                    max-height: 400px;
+                    background-color: #333333;
+                    a {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        // .projectBox:hover {
+        //     position: sticky;
+        //     border: 0;
+        //     width: 150px;
+        //     height: 320px;
+        //     background-color: #3b3b3b;
+        //     margin: 10px;
+        //     color: white;
+        //     outline: none;
+        //     text-decoration: none;
+        //     text-decoration-line: none;
+        //     a {
+        //         display: flex;
+        //         flex-direction: column;
+        //         justify-content: flex-start;
+        //         align-items: center;
+        //         visibility: visible;
+        //         overflow: visible;
+        //         width: 150px;
+        //         height: 170px;
+        //     }
+        //     img {
+        //         background-color: blue;
+        //         width: 150px;
+        //         height: 170px;
+        //     }
+        // }
+        // div:active {
+        //     position: sticky;
+        //     border: 0;
+        //     width: 150px;
+        //     height: 320px;
+        //     background-color: red;
+        //     margin: 10px;
+        //     a {
+        //         display: flex;
+        //         flex-direction: column;
+        //         justify-content: flex-start;
+        //         align-items: center;
+        //         visibility: visible;
+        //         overflow: visible;
+        //         width: 150px;
+        //         height: 170px;
+        //     }
+        //     img {
+        //         background-color: blue;
+        //         width: 150px;
+        //         height: 170px;
+        //     }
+        // }
+    }
+}
