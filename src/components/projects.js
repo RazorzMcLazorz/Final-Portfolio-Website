@@ -4,9 +4,24 @@ import Footer from './footer';
 
 export default class Project extends Component {
     // every page switch it goes to the top
+
+    // constructor (props) {
+    //     super(props);
+        
+    //     this.state = {
+    //         workInProgress: false
+    //     }
+
+    // }
+
+
     componentDidMount() {
         window.scrollTo(0, 0)
       }
+
+    //   hoverEffect() {
+
+    //   }
     render() {
         return (
             <div className="Project">
@@ -36,18 +51,40 @@ export default class Project extends Component {
                         </ul>
                     </nav>
                 </div>
+
+
+
                 <div className="body">
                     <div className="Projectscentering">
+
                         <div className="BestProjectPreview">
                             <div className="Tag">
                                 Best Project
                             </div>
                         </div>
+
                         <div className="LatestProjectPreview">
                             <div className="Tag">
                                 Project im Working on right now
                             </div>
+                           
+                            <div className="Project" hover>
+                                <a>
+                                    BlackJack Project is a Work In Progress
+                                </a>
+                                <div className="xtraInfo">
+                                <div>
+                                    <img src="./assets/BlackJackWeb.png"></img>
+                                    <img src="./assets/BlackJackWireFrame.png"></img>
+                                </div>
+                                    <a>
+                                        as you can see in the picture its not complete at the moment but im still working on it and have been, just while im doing the project im learning React. The blackjack Project has a low fidelity wire frame seen in the second picture, other parts of the user story is not shown, but if you want to see them just send me and email and i can send them.
+                                    </a>
+                                </div>
+                                
+                            </div> 
                         </div>
+
                         <div className="PastProjects">
                             <div className="Tag">
                                 Past Projects (Click Projects)
@@ -61,6 +98,7 @@ export default class Project extends Component {
                                 </Link>
                             </a>
                         </div>
+                        
                     </div>
                 </div>
                 <Footer/>

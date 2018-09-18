@@ -1,0 +1,81 @@
+.LatestProjectPreview {
+    .Project {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 450px;
+        background-color: #2a2a2a;
+        border-color: #2a2a2a;
+        margin-top: 15px;
+        height: 100%;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: #333333;
+            width: 450px;
+            height: 140px;
+        }
+        .xtraInfo {
+            visibility: hidden;
+        }
+    }
+    .Project:hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 450px;
+        background-color: #2a2a2a;
+        border-color: #2a2a2a;
+        margin-top: 15px;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: #333333;
+            width: 450px;
+            height: 45px;
+        }
+        .xtraInfo {
+            visibility: visible;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            border-bottom: 0;
+            background-color: #333333;
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                height: 300px;
+                width: 150px;
+                background: #333333;
+                border-color: #333333;
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+                img:hover {
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    z-index: 10;
+                }
+            }
+            a {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                width: 300px;
+                height: 300px;
+                background-color: #333333;
+            }
+        }
+    }
+}
