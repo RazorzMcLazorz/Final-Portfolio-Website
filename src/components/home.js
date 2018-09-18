@@ -49,7 +49,7 @@ export default class Home extends Component {
                             Nathaniel P Young
                         </a>
                         <a>
-                            UI / UX Designer
+                            Software Developer
                         </a>
                     </div>
                     </div>
@@ -140,7 +140,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                     <div className="WhatIKnowTitle">
-                        The Languages I know and familiar with are:
+                        
                     </div>
                 </div>
                     <Footer />  
