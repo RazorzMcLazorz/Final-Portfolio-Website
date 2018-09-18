@@ -62,10 +62,9 @@ export default class Contact extends Component {
                             <Link to="/linkedin"><i class="fab fa-linkedin"></i></Link>
                         </a>
                         <a>Or</a>
-                        <a className="MYLinksTop" >Manually message me/call at: </a>
-                        <a id="MYLinksTop2" className="MYLinksTop3" >801 - 687 - 3065</a>
+                        <a className="MYLinksTop" >Manually message me at: </a>
                         <a className="MYLinksTop3" >nateyoungdev@gmail.com</a>
-                        <a className="MYLinksTop">To make it fast here's some links to the Emails</a>
+                        <a className="MYLinksTop">To make it faster here's some links to the Emails</a>
                         <div className="EmailLinks">
                             <Link to="/outlook" className="projects"><a><img src = "\assets\gmail.png"></img></a></Link>
                             <Link to="/gmail" className="projects"><a><img src = "\assets\Outlook.png"></img></a></Link>
