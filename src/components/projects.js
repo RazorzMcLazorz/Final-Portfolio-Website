@@ -78,7 +78,7 @@ export default class Project extends Component {
                                     <img src="./assets/BlackJackWireFrame.png"></img>
                                 </div>
                                     <a>
-                                        as you can see in the picture its not complete at the moment but im still working on it and have been, just while im doing the project im learning React. The blackjack Project has a low fidelity wire frame seen in the second picture, other parts of the user story is not shown, but if you want to see them just send me an email and i can send them.
+                                        As you can see in the picture it's not complete at the moment but I'm still working on it and have been, just while I'm doing the project I'm learning React. The blackjack Project has a low fidelity wireframe seen in the second picture, other parts of the user story is not shown, but if you want to see them just send me an email and I can send them.
                                     </a>
                                 </div>
                                 
