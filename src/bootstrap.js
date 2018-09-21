@@ -34,6 +34,7 @@ function main() {
           <Route exact path="/linkedin" component={() => window.location = 'https://www.linkedin.com/in/nate-p-young/'}/>
           <Route exact path="/github" component={() => window.location = 'https://github.com/RazorzMcLazorz'}/>
           <Route exact path="/madlibs" component={() => window.location = 'https://madlibschallenge.herokuapp.com/'}/>
+          <Route exact path="/BlackJack" component={() => window.location = 'https://black-jack-website.herokuapp.com/'}/>
         </Switch>
       </BrowserRouter>
     </Provider>

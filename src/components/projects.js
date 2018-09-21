@@ -68,21 +68,21 @@ export default class Project extends Component {
                                 Project im Working on right now
                             </div>
                            
-                            <div className="Project" hover>
+                            <Link to="/BlackJack" className="Project">
                                 <a>
                                     BlackJack Project is a Work In Progress
                                 </a>
                                 <div className="xtraInfo">
                                 <div>
-                                    <img src="./assets/BlackJackWeb.png"></img>
+                                    <img src="./assets/BlackJackWeb2.png"></img>
                                     <img src="./assets/BlackJackWireFrame.png"></img>
                                 </div>
                                     <a>
-                                        As you can see in the picture it's not complete at the moment but I'm still working on it and have been, just while I'm doing the project I'm learning React. The blackjack Project has a low fidelity wireframe seen in the second picture, other parts of the user story is not shown, but if you want to see them just send me an email and I can send them.
+                                        Complete working Black Jack Game online, it will soon be hosted as an app on google play store, after I add animations and sound to the game itself. this game is created in React.JS, it takes the complete knowledge of my coding with JavaScript and React.JS combines it into one to build this fun game.
                                     </a>
                                 </div>
                                 
-                            </div> 
+                            </Link> 
                         </div>
 
                         <div className="PastProjects">
@@ -106,7 +106,7 @@ export default class Project extends Component {
                                         </div>
                                         <div id="Text">
                                             <a>
-                                                Madlibs uses this.state.values and changes the state by setState to the value.
+                                                Madlibs uses this.state.values and changes the state by setState to the value. Its a Madlibs game hosted on the web, it shows basic React.JS of taking input and putting in the correct spots to make a nice little story.
                                                 
                                             </a>
                                         </div>

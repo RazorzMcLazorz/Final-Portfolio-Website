@@ -9,6 +9,7 @@
         border-color: #2a2a2a;
         margin-top: 15px;
         height: 100%;
+        text-decoration: none;
         a {
             display: flex;
             justify-content: center;
@@ -17,6 +18,7 @@
             background-color: #333333;
             width: 450px;
             height: 140px;
+            color: white;
         }
         .xtraInfo {
             visibility: hidden;
@@ -31,6 +33,7 @@
         background-color: #2a2a2a;
         border-color: #2a2a2a;
         margin-top: 15px;
+        text-decoration: none;
         a {
             display: flex;
             justify-content: center;
@@ -39,6 +42,7 @@
             background-color: #333333;
             width: 450px;
             height: 45px;
+            color: white;
         }
         .xtraInfo {
             visibility: visible;
