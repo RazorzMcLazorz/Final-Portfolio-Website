@@ -1,4 +1,4 @@
-.LatestProjectPreview {
+.BestProjectPreview {
     .Project {
         display: flex;
         flex-direction: column;
@@ -7,9 +7,10 @@
         width: 450px;
         background-color: #2a2a2a;
         border-color: #2a2a2a;
-        margin-top: 15px;
-        height: 50px;
         text-decoration: none;
+        height: 350px;
+        margin-bottom: 15px;
+        margin-top: 15px;
         a {
             display: flex;
             justify-content: center;
@@ -20,30 +21,7 @@
             height: 50px;
             color: white;
         }
-        .xtraInfo {
-            visibility: hidden;
-            height: 0;
-        }
-    }
-    .Project:hover {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        width: 450px;
-        background-color: #2a2a2a;
-        border-color: #2a2a2a;
-        text-decoration: none;
-        height: 100%;
-        margin-bottom: 15px;
-        a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            background-color: #333333;
-            width: 450px;
-            height: 50px;
+        a:hover {
             color: white;
         }
         .xtraInfo {

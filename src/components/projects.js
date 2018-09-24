@@ -61,16 +61,10 @@ export default class Project extends Component {
                             <div className="Tag">
                                 Best Project
                             </div>
-                        </div>
-
-                        <div className="LatestProjectPreview">
-                            <div className="Tag">
-                                Project im Working on right now
-                            </div>
-                           
+                            
                             <Link to="/BlackJack" className="Project">
                                 <a>
-                                    BlackJack Project is a Work In Progress
+                                    BlackJack Project
                                 </a>
                                 <div className="xtraInfo">
                                 <div>
@@ -81,7 +75,28 @@ export default class Project extends Component {
                                         Complete working Black Jack Game online, it will soon be hosted as an app on google play store, after I add animations and sound to the game itself. this game is created in React.JS, it takes the complete knowledge of my coding with JavaScript and React.JS combines it into one to build this fun game.
                                     </a>
                                 </div>
-                                
+                            </Link>
+
+                        </div>
+
+                        <div className="LatestProjectPreview">
+                            <div className="Tag">
+                                Project im Working on right now
+                            </div>
+                           
+                            <Link to="/BlackJack" className="Project">
+                                <a>
+                                    Settlements Project is a Work In Progress
+                                </a>
+                                <div className="xtraInfo">
+                                <div>
+                                    <img src="http://via.placeholder.com/150x150"></img>
+                                    <img src="http://via.placeholder.com/150x150"></img>
+                                </div>
+                                    <a>
+                                        A React Sim Management Game
+                                    </a>
+                                </div>
                             </Link> 
                         </div>
 
@@ -92,7 +107,6 @@ export default class Project extends Component {
                             </div>
 
                             <a className="Box-Container">
-
                                 <Link to="/madlibs" className="projectBox">
                                     <div id="pastTitle">
                                         <a>
@@ -110,11 +124,30 @@ export default class Project extends Component {
                                                 
                                             </a>
                                         </div>
-                                        
                                     </div>
-                                    
                                 </Link>
+                            </a>
 
+                            <a className="Box-Container">
+                                <Link to="/BlackJack" className="projectBox">
+                                    <div id="pastTitle">
+                                        <a>
+                                            BlackJack Project
+                                        </a>
+                                    </div>
+
+                                    <div id="hoverInfo">
+                                        <div id="IMGS">
+                                            <img src="./assets/BlackJackWeb2.png"></img>
+                                            <img src="./assets/BlackJackWireFrame.png"></img>
+                                        </div>
+                                        <div id="Text">
+                                            <a>
+                                                Complete working Black Jack Game online, it will soon be hosted as an app on google play store, after I add animations and sound to the game itself. this game is created in React.JS, it takes the complete knowledge of my coding with JavaScript and React.JS combines it into one to build this fun game.
+                                            </a>
+                                        </div>
+                                    </div>
+                                </Link>
                             </a>
                         </div>
                         

@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     min-width: 100%;
+    height: 25px;
 }
 
 .BestProjectPreview {
@@ -30,7 +31,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 10%;
-    height: 600px;
+    height: 100%;
 }
 
 .LatestProjectPreview {
@@ -39,7 +40,8 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 10%;
-    height: 400px;
+    min-height: 400px;
+    max-height: 100%;
 }
 
 .PastProjects {
