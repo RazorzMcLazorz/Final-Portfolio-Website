@@ -84,7 +84,7 @@ export default class Project extends Component {
                                 Project im Working on right now
                             </div>
                            
-                            <Link to="/BlackJack" className="Project">
+                            <div className="Project">
                                 <a>
                                     Settlements Project is a Work In Progress
                                 </a>
@@ -97,7 +97,7 @@ export default class Project extends Component {
                                         A React Sim Management Game
                                     </a>
                                 </div>
-                            </Link> 
+                            </div> 
                         </div>
 
                         <div className="PastProjects">
