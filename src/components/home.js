@@ -13,6 +13,7 @@ export default class Home extends Component {
                 <div className="Header">
                     <nav>
                         <ul>
+                            {/* Nav Bar */}
                             <div className = "Selected">
                                 <a>
                                     Home
@@ -37,6 +38,7 @@ export default class Home extends Component {
                     </nav>
                 </div>
                 <div className = "body">
+                {/* The Background Video */}
                     <div className="videoheader">
                         <video className="VIDEO"
                             autoPlay
@@ -45,17 +47,19 @@ export default class Home extends Component {
                             src="\assets\ParticleVideo.mp4"
                         />
                     <div className = "NameBox">
+                    {/* Name Tag */}
                         <a>
                             Nathaniel P Young
                         </a>
                         <a>
-                            Software Developer
+                            Full Stack Developer
                         </a>
                     </div>
                     </div>
                     <div className = "PreviewProjects">
                         Projects
                         <a>
+                            {/* MadLibs Preview fast click */}
                             <a className="PreviewProject">
                                 <Link to="/madlibs" className="projectBox">
                                     <img src="\assets\MadLibsPic.png"></img>
@@ -63,7 +67,12 @@ export default class Home extends Component {
                             </a>
                         </a>
                         <a>
-
+                            {/* BlackJack Preview fast click */}
+                            <a className="PreviewProject">
+                                <Link to="/BlackJack" className="projectBox">
+                                    <img src="\assets\BlackJackWeb2.png"></img>
+                                </Link>
+                            </a>
                         </a>
                     </div>
                     
@@ -92,6 +101,7 @@ export default class Home extends Component {
                     <a name="CodeAnchor"></a>
                     {/* ANCHOR ^ */}
                     <div className="whatiknow">
+                    {/* Languages I Know */}
                         The Languages I know and familiar with are:
                     </div>
                     <div className="CodesIKnow">

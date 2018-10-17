@@ -19,7 +19,7 @@ class Footer extends Component {
                 <div className="footRight">
                     <a>
                         {/* version number every push add .1 to this */}
-                        <a>Version 2.3</a>
+                        <a>Version 2.4</a>
                         <i class="fab fa-github-square"></i>
                         <i class="fab fa-facebook"></i>
                         <i class="fab fa-linkedin"></i>

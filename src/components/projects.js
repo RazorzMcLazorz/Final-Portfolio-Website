@@ -3,25 +3,11 @@ import { Link } from 'react-router-dom';
 import Footer from './footer';
 
 export default class Project extends Component {
-    // every page switch it goes to the top
-
-    // constructor (props) {
-    //     super(props);
-        
-    //     this.state = {
-    //         workInProgress: false
-    //     }
-
-    // }
-
 
     componentDidMount() {
         window.scrollTo(0, 0)
       }
-
-    //   hoverEffect() {
-
-    //   }
+      
     render() {
         return (
             <div className="Project">
@@ -94,7 +80,7 @@ export default class Project extends Component {
                                     <img src="http://via.placeholder.com/150x150"></img>
                                 </div>
                                     <a>
-                                        A React Sim Management Game
+                                        A React Sim Management Game that has alot done just need to add more art and design to the React game before its finished.
                                     </a>
                                 </div>
                             </div> 
