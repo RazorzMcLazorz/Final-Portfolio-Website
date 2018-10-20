@@ -76,7 +76,7 @@ export default class Project extends Component {
                                 </a>
                                 <div className="xtraInfo">
                                 <div>
-                                    <img src="http://via.placeholder.com/150x150"></img>
+                                    <img src="./assets/WWOutPost.png"></img>
                                     <img src="http://via.placeholder.com/150x150"></img>
                                 </div>
                                     <a>
