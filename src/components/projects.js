@@ -70,20 +70,20 @@ export default class Project extends Component {
                                 Project im Working on right now
                             </div>
                            
-                            <div className="Project">
+                            <Link to="/WWOutpost" className="Project">
                                 <a>
-                                    Settlements Project is a Work In Progress
+                                    WWOutpost Project is a Work In Progress
                                 </a>
                                 <div className="xtraInfo">
                                 <div>
                                     <img src="./assets/WWOutPost.png"></img>
-                                    <img src="http://via.placeholder.com/150x150"></img>
+                                    <img src="./assets/WWOutPost2.png"></img>
                                 </div>
                                     <a>
-                                        A React Sim Management Game that has alot done just need to add more art and design to the React game before its finished.
+                                        A mini city manager game, this game allows the user to control an Outpost within my ww2 alternate universe. Its a game to help me out and also to give me somthing to do on my own time anywhere since its online. This is not complete and is hosted but doesnt fully work i am still working on the major things like bases buffs to your settlements.
                                     </a>
                                 </div>
-                            </div> 
+                            </Link> 
                         </div>
 
                         <div className="PastProjects">

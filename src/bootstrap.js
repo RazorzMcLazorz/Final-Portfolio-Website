@@ -35,6 +35,7 @@ function main() {
           <Route exact path="/github" component={() => window.location = 'https://github.com/RazorzMcLazorz'}/>
           <Route exact path="/madlibs" component={() => window.location = 'https://madlibschallenge.herokuapp.com/'}/>
           <Route exact path="/BlackJack" component={() => window.location = 'https://black-jack-website.herokuapp.com/'}/>
+          <Route exact path="/WWOutpost" component={() => window.location = 'https://wwoutpost.herokuapp.com/'}/>
         </Switch>
       </BrowserRouter>
     </Provider>
