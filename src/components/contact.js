@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Footer from './footer';
 
 export default class Contact extends Component {
+
     constructor(props) {
         super(props);
         this.state = {value: ''};
@@ -23,6 +24,9 @@ export default class Contact extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
     }
+
+    
+
     render() {
         return (
             <div className="Contact">
@@ -63,7 +67,9 @@ export default class Contact extends Component {
                         </a>
                         <a>Or</a>
                         <a className="MYLinksTop" >Manually message me at: </a>
-                        <a className="MYLinksTop3" >nateyoungdev@gmail.com</a>
+
+                        <a className="MYLinksTop3" type="text" id ="email" value="nateyoungdev@gmail.com">nateyoungdev@gmail.com</a>
+
                         <a className="MYLinksTop">To make it faster here's some links to the Emails</a>
                         <div className="EmailLinks">
                             <Link to="/outlook" className="projects"><a><img src = "\assets\gmail.png"></img></a></Link>
