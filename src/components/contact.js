@@ -25,8 +25,6 @@ export default class Contact extends Component {
         window.scrollTo(0, 0)
     }
 
-    
-
     render() {
         return (
             <div className="Contact">
@@ -59,24 +57,24 @@ export default class Contact extends Component {
                 <div className="Contactbox">
                     
                     <div className = "ContactInfo">
-                        <a>You can find me at these links</a>
-                        <a className="MYLinks">
-                            <Link to="/github"><i class="fab fa-github-square"></i></Link>
-                            <Link to="/facebook"><i class="fab fa-facebook"></i></Link>
-                            <Link to="/linkedin"><i class="fab fa-linkedin"></i></Link>
-                        </a>
-                        <a>Or</a>
-                        <a className="MYLinksTop" >Manually message me at: </a>
+                        <div>You can find me at these links</div>
+                        <div className="MYLinks">
+                            <a href="https://github.com/RazorzMcLazorz" target="_blank"><i class="fab fa-github-square"></i></a>
+                            <a href="https://www.facebook.com/RazorzMcLazorz" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/nate-p-young/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div>Or</div>
+                        <div className="MYLinksTop" >Manually message me at: </div>
 
-                        <a className="MYLinksTop3" type="text" id ="email" value="nateyoungdev@gmail.com">nateyoungdev@gmail.com</a>
+                        <div className="MYLinksTop3" type="text" id ="email" value="nateyoungdev@gmail.com">nateyoungdev@gmail.com</div>
 
-                        <a className="MYLinksTop">To make it faster here's some links to the Emails</a>
+                        <div className="MYLinksTop">To make it faster here's some links to the Emails</div>
                         <div className="EmailLinks">
-                            <Link to="/outlook" className="projects"><a><img src = "\assets\gmail.png"></img></a></Link>
-                            <Link to="/gmail" className="projects"><a><img src = "\assets\Outlook.png"></img></a></Link>
-                            <Link to="/yahoo" className="projects"><a><img src = "\assets\yahoo.png"></img></a></Link>
-                            <Link to="/inbox" className="projects"><a><img src = "\assets\inbox.png"></img></a></Link>
-                            <Link to="/icloud" className="projects"><a><img src = "\assets\icloud.png"></img></a></Link>
+                            <a href="https://mail.google.com/" target="_blank" className="projects"><img src = "\assets\gmail.png"></img></a>
+                            <a href="https://outlook.live.com/owa/" target="_blank" className="projects"><img src = "\assets\Outlook.png"></img></a>
+                            <a href="https://overview.mail.yahoo.com/" target="_blank" className="projects"><img src = "\assets\yahoo.png"></img></a>
+                            <a href="http://www.inbox.com/tech/" target="_blank" className="projects"><img src = "\assets\inbox.png"></img></a>
+                            <a href="https://www.icloud.com/" target="_blank" className="projects"><img src = "\assets\icloud.png"></img></a>
                         </div>
                     </div>
                 </div>
