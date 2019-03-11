@@ -84,6 +84,20 @@ export default class Project extends Component {
                                     </a>
                                 </div>
                             </Link> 
+                            <Link to="" className="Project">
+                                <a>
+                                    WW1Simulator Project is a Work In Progress
+                                </a>
+                                <div className="xtraInfo">
+                                <div>
+                                    <img src="./assets/WW1Sim.png"></img>
+                                    <img src="./assets/WW1Sim2.png"></img>
+                                </div>
+                                    <a>
+                                        My first Database Website, using Node.js and mysql hosted via ClearDB servers, The Game is for my highschool History Teacher, to help him with his WW1 game making it easier to keep track of everything while being completely online allowing use anywhere. It deals with player groups, choice decison's for the groups and resource managements per group while at the end sorting everyone into the specific ranking for the next round.
+                                    </a>
+                                </div>
+                            </Link> 
                         </div>
 
                         <div className="PastProjects">
