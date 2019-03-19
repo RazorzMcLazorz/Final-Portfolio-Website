@@ -113,9 +113,6 @@ export default class Home extends Component {
                                 <img src = "\assets\CSS.png"></img> CSS - FlexBox
                             </a>
                             <a>
-                                <img src = "\assets\jsx.png"></img> JSX
-                            </a>
-                            <a>
                                 <img src="\assets\mysql.png"></img> MySQL
                             </a>
                         </div>
@@ -130,10 +127,10 @@ export default class Home extends Component {
                                 <img src = "\assets\C++.png"></img> C++
                             </a>
                             <a>
-                                <img src = "\assets\mongodb-logo.png"></img> MongoDB
+                                <img src = "\assets\ClearDB.jpg"></img> ClearDB
                             </a>
                             <a>
-                                <img src = "\assets\PowerShell.png"></img> Shell
+                                <img src = "\assets\Bash.jpg"></img> Bash Terminal
                             </a>
                             <a>
                                 <img src = "\assets\redux.png"></img> Redux
