@@ -2,7 +2,51 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './footer';
 
-export default class Project extends Component {
+class Project extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+        bestProjects : {
+          blackJack : {
+            link : '/BlackJack',
+            project : 'BlackJack Project',
+            src1 : './assets/BlackJackWeb2.png',
+            src2 : './assets/BlackJackWireFrame.png',
+            para : 'Complete working Black Jack Game online, it will soon be hosted as an app on google play store, after I add animations and sound to the game itself. this game is created in React.JS, it takes the complete knowledge of my coding with JavaScript and React.JS combines it into one to build this fun game.'
+          }
+        },
+        latestProjects : {
+
+        },
+        Projects : {
+
+        }
+    }
+  }
+
+    BestProject() {
+      const temp = [...this.state.bestProjects]
+        const t = temp.map(project => {
+          <div>
+            <a href={project.link} className="Project">
+              <div>
+                {project.project}
+              </div>
+              <div className="xtraInfo">
+              <div>
+                <img src={project.scr1}></img>
+                <img src={project.scr2}></img>
+              </div>
+                <div>
+                  {project.para}
+                </div>
+              </div>
+            </a>
+          </div>
+        })
+        return t
+    }
+
 
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -42,27 +86,11 @@ export default class Project extends Component {
 
                 <div className="body">
                     <div className="Projectscentering">
-
                         <div className="BestProjectPreview">
-                            <div className="Tag">
-                                Best Project
-                            </div>
-                            
-                            <Link to="/BlackJack" className="Project">
-                                <a>
-                                    BlackJack Project
-                                </a>
-                                <div className="xtraInfo">
-                                <div>
-                                    <img src="./assets/BlackJackWeb2.png"></img>
-                                    <img src="./assets/BlackJackWireFrame.png"></img>
-                                </div>
-                                    <a>
-                                        Complete working Black Jack Game online, it will soon be hosted as an app on google play store, after I add animations and sound to the game itself. this game is created in React.JS, it takes the complete knowledge of my coding with JavaScript and React.JS combines it into one to build this fun game.
-                                    </a>
-                                </div>
-                            </Link>
-
+                          <div className="Tag">
+                            Best Project
+                          </div>
+                            {this.BestProject()}
                         </div>
 
                         <div className="LatestProjectPreview">
@@ -158,3 +186,8 @@ export default class Project extends Component {
         );
     }
 }
+
+const mapStateToProps = (state) => {
+  return state
+}
+export default Project;
