@@ -60,18 +60,18 @@ export default class Home extends Component {
                         Projects
                         <a>
                             {/* MadLibs Preview fast click */}
-                            <a className="PreviewProject">
-                                <Link to="/madlibs" className="projectBox">
-                                    <img src="\assets\MadLibsPic.png"></img>
-                                </Link>
+                            <a className="PreviewProject" href="https://ww1sim.herokuapp.com/" target="_blank">
+                                <div className="projectBox">
+                                    <img src="./assets/WW1Sim.png"></img>
+                                </div>
                             </a>
                         </a>
                         <a>
                             {/* BlackJack Preview fast click */}
-                            <a className="PreviewProject">
-                                <Link to="/BlackJack" className="projectBox">
+                            <a className="PreviewProject" href="https://black-jack-website.herokuapp.com/" target="_blank">
+                                <div className="projectBox">
                                     <img src="\assets\BlackJackWeb2.png"></img>
-                                </Link>
+                                </div>
                             </a>
                         </a>
                     </div>

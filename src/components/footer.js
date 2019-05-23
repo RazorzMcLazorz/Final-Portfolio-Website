@@ -6,7 +6,7 @@ class Footer extends Component {
         return(
             <div className="foot">
                 <div className="footLeft">
-                        <div>Powered by Nathaniel Young using</div> 
+                        <div>Created by Nathaniel Young using</div> 
                         <img src = "\assets\React1.png"></img>
                         <a>React</a>
                         <img src = "\assets\redux.png"></img>

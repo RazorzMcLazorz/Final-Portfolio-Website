@@ -165,12 +165,12 @@ class Project extends Component {
                                     </div>
                                     <div id="hoverInfo">
                                         <div id="IMGS">
-                                            <img src="./assets/WWOutpost.png"></img>
+                                            <img src="./assets/WWOutPost.png"></img>
                                             <img src="./assets/WWOutpost2.png"></img>
                                         </div>
                                         <div id="Text">
                                             <a>
-                                                A mini city manager game, this game allows the user to control an Outpost within my ww2 alternate universe. Its a game to help me out and also to give me somthing to do on my own time anywhere since its online. This is not complete and is hosted but doesnt fully work i am still working on the major things like bases buffs to your settlements.
+                                                This is a Colony Simulator Game that takes place sort of in the WW's its only 12 rounds and the goal is to gain as much supplys / research by the end of the game. this game is cut short due to the new WWOutpost2 game taking place but i will eventually finish with new ideas in the future. This dives head first into complexity with multiple types of buildings to create along with Research, Production and little fast war battles against the AI.
                                             </a>
                                         </div>
                                     </div>
