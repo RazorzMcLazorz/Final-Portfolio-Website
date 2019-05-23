@@ -1,4 +1,6 @@
 .LatestProjectPreview {
+    .outer {
+        text-decoration: none;
     .Project {
         display: flex;
         flex-direction: column;
@@ -87,4 +89,4 @@
             }
         }
     }
-}
+}}

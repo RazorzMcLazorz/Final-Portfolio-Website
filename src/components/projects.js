@@ -90,42 +90,45 @@ class Project extends Component {
                           <div className="Tag">
                             Best Project
                           </div>
-                            {this.BestProject()}
+                            {/* {this.BestProject()} */}
+                            <a className='outer' href="https://black-jack-website.herokuapp.com/" target="_blank">
+                                <div className="Project">
+                                    <a>
+                                        BlackJack Project
+                                    </a>
+                                    <div className="xtraInfo">
+                                    <div>
+                                        <img src="./assets/BlackJackWeb2.png"></img>
+                                        <img src="./assets/BlackJackWireFrame.png"></img>
+                                    </div>
+                                        <a>
+                                        Complete working Black Jack Game online, it will soon be hosted as an app on google play store, after I add animations and sound to the game itself. this game is created in React.JS, it takes the complete knowledge of my coding with JavaScript and React.JS combines it into one to build this fun game.
+                                        </a>
+                                    </div>
+                                </div> 
+                            </a>
                         </div>
 
                         <div className="LatestProjectPreview">
                             <div className="Tag">
                                 Project im Working on right now
                             </div>
-                           
-                            <Link to="/WWOutpost" className="Project">
-                                <a>
-                                    WWOutpost Project is a Work In Progress
-                                </a>
-                                <div className="xtraInfo">
-                                <div>
-                                    <img src="./assets/WWOutPost.png"></img>
-                                    <img src="./assets/WWOutPost2.png"></img>
-                                </div>
+                            <a className='outer'>
+                                <div className="Project">
                                     <a>
-                                        A mini city manager game, this game allows the user to control an Outpost within my ww2 alternate universe. Its a game to help me out and also to give me somthing to do on my own time anywhere since its online. This is not complete and is hosted but doesnt fully work i am still working on the major things like bases buffs to your settlements.
+                                        WWOutPost 2 Project is a Work In Progress
                                     </a>
-                                </div>
-                            </Link> 
-                            <Link to="" className="Project">
-                                <a>
-                                    WW1Simulator Project is a Work In Progress
-                                </a>
-                                <div className="xtraInfo">
-                                <div>
-                                    <img src="./assets/WW1Sim.png"></img>
-                                    <img src="./assets/WW1Sim2.png"></img>
-                                </div>
-                                    <a>
-                                        My first Database Website, using Node.js and mysql hosted via ClearDB servers, The Game is for my highschool History Teacher, to help him with his WW1 game making it easier to keep track of everything while being completely online allowing use anywhere. It deals with player groups, choice decison's for the groups and resource managements per group while at the end sorting everyone into the specific ranking for the next round.
-                                    </a>
-                                </div>
-                            </Link> 
+                                    <div className="xtraInfo">
+                                    <div>
+                                        <img src="./assets/WWOutpost21.jpg"></img>
+                                        <img src="./assets/WWOutpost22.jpg"></img>
+                                    </div>
+                                        <a>
+                                            This is a successer to the WWOutpost game but will include Multiplayer with up to 2 people, and the coding languages i will be using are TypeScript, Node.js, and Redis as the entire website. This Game at the moment is just in the drafting phase and only partially built, the Database Redis that i will be using will allow me to update the game seemlessly.
+                                        </a>
+                                    </div>
+                                </div> 
+                            </a>
                         </div>
 
                         <div className="PastProjects">
@@ -133,9 +136,48 @@ class Project extends Component {
                             <div className="Tag">
                                 Past Projects (Click Projects)
                             </div>
-
-                            <a className="Box-Container">
-                                <Link to="/madlibs" className="projectBox">
+                            <a className="Box-Container" href="https://ww1sim.herokuapp.com/" target="_blank">
+                                <div className="projectBox">
+                                    <div id="pastTitle">
+                                        <a>
+                                            WW1Simulator Project
+                                        </a>
+                                    </div>
+                                    <div id="hoverInfo">
+                                        <div id="IMGS">
+                                            <img src="./assets/WW1Sim.png"></img>
+                                            <img src="./assets/WW1Sim2.png"></img>
+                                        </div>
+                                        <div id="Text">
+                                            <a>
+                                                My first Database Website, using Node.js and mysql hosted via ClearDB servers, The Game is for my highschool History Teacher, to help him with his WW1 game making it easier to keep track of everything while being completely online allowing use anywhere. It deals with player groups, choice decison's for the groups and resource managements per group while at the end sorting everyone into the specific ranking for the next round.
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a className="Box-Container" href="https://wwoutpost.herokuapp.com/" target="_blank">
+                                <div className="projectBox">
+                                    <div id="pastTitle">
+                                        <a>
+                                            WWOutpost Project
+                                        </a>
+                                    </div>
+                                    <div id="hoverInfo">
+                                        <div id="IMGS">
+                                            <img src="./assets/WWOutPost.png"></img>
+                                            <img src="./assets/WWOutPost2.png"></img>
+                                        </div>
+                                        <div id="Text">
+                                            <a>
+                                                A mini city manager game, this game allows the user to control an Outpost within my ww2 alternate universe. Its a game to help me out and also to give me somthing to do on my own time anywhere since its online. This is not complete and is hosted but doesnt fully work i am still working on the major things like bases buffs to your settlements.
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a className="Box-Container" href="https://madlibschallenge.herokuapp.com/" target="_blank">
+                                <div className="projectBox">
                                     <div id="pastTitle">
                                         <a>
                                             Madlibs Project
@@ -153,11 +195,11 @@ class Project extends Component {
                                             </a>
                                         </div>
                                     </div>
-                                </Link>
+                                </div>
                             </a>
 
-                            <a className="Box-Container">
-                                <Link to="/BlackJack" className="projectBox">
+                            <a className="Box-Container" href="https://black-jack-website.herokuapp.com/" target="_blank">
+                                <div className="projectBox">
                                     <div id="pastTitle">
                                         <a>
                                             BlackJack Project
@@ -175,7 +217,7 @@ class Project extends Component {
                                             </a>
                                         </div>
                                     </div>
-                                </Link>
+                                </div>
                             </a>
                         </div>
                         

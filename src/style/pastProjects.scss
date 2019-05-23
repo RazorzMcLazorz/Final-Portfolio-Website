@@ -10,6 +10,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         border-color: #333333;
+        text-decoration: none;
         .projectBox {
             display: flex;
             flex-direction: column;
@@ -44,6 +45,7 @@
             width: 450px;
             height: 100%;
             text-decoration: none;
+            
             #pastTitle {
                 display: flex;
                 justify-content: center;

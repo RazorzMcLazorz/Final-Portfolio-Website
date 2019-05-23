@@ -47,11 +47,13 @@
         a {
             font-size: 10px;
         }
-        i {
+        .i {
+            color: gray;
+            text-decoration: none;
             margin-left: 10px;
             cursor: pointer;
         }
-        i:hover {
+        .i:hover {
             color: white;
         }
     }
