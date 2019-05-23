@@ -101,6 +101,9 @@ export default class Home extends Component {
                                 <img src = "\assets\ES6LOGO.svg"></img> JavaScript
                             </a>
                             <a>
+                                <img src = "\assets\typescript.svg"></img> Typescript
+                            </a>
+                            <a>
                                 <img src = "\assets\PythonLogo.png"></img> Python 3
                             </a>
                             <a>

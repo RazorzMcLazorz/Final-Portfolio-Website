@@ -165,8 +165,8 @@ class Project extends Component {
                                     </div>
                                     <div id="hoverInfo">
                                         <div id="IMGS">
-                                            <img src="./assets/WWOutPost.png"></img>
-                                            <img src="./assets/WWOutPost2.png"></img>
+                                            <img src="./assets/WWOutpost.png"></img>
+                                            <img src="./assets/WWOutpost2.png"></img>
                                         </div>
                                         <div id="Text">
                                             <a>
