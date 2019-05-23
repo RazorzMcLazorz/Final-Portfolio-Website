@@ -44,17 +44,14 @@
     width: 30%;
     margin-right: 10px;
     a {
-        .version {
+        a {
             font-size: 10px;
         }
-        a {
-            color: gray;
-            text-decoration: none;
+        i {
             margin-left: 10px;
             cursor: pointer;
         }
-        a:hover {
-            text-decoration: none;
+        i:hover {
             color: white;
         }
     }
