@@ -116,6 +116,20 @@ class Project extends Component {
                             <a className='outer'>
                                 <div className="Project">
                                     <a>
+                                        HJReptiles Project is a Work In Progress
+                                    </a>
+                                    <div className="xtraInfo">
+                                    <div>
+                                    </div>
+                                        <a>
+                                            This is one of my clients websites im currently working on, right now we are in the Drafting stage so i have no pictures to display. But this website will be where he can show off all his Reptiles and sell them to his clients.
+                                        </a>
+                                    </div>
+                                </div> 
+                            </a>
+                            <a className='outer'>
+                                <div className="Project">
+                                    <a>
                                         WWOutPost 2 Project is a Work In Progress
                                     </a>
                                     <div className="xtraInfo">
