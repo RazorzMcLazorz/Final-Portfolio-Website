@@ -116,7 +116,7 @@ class Project extends Component {
                             <a className='outer'>
                                 <div className="Project">
                                     <a>
-                                        HJReptiles Project is a Work In Progress
+                                        JoshesReps Project is a Work In Progress
                                     </a>
                                     <div className="xtraInfo">
                                     <div>
