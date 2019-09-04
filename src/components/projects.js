@@ -130,6 +130,20 @@ class Project extends Component {
                             <a className='outer'>
                                 <div className="Project">
                                     <a>
+                                        New Personal Website Work In Progress
+                                    </a>
+                                    <div className="xtraInfo">
+                                    <div>
+                                    </div>
+                                        <a>
+                                            My New Website for the new LLC i setup this one is to be more CSS intensive making it look fantastic and way more eye candy.
+                                        </a>
+                                    </div>
+                                </div> 
+                            </a>
+                            <a className='outer'>
+                                <div className="Project">
+                                    <a>
                                         WWOutPost 2 Project is a Work In Progress
                                     </a>
                                     <div className="xtraInfo">
