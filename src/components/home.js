@@ -40,12 +40,12 @@ export default class Home extends Component {
                 <div className = "body">
                 {/* The Background Video */}
                     <div className="videoheader">
-                        <video className="VIDEO"
+                        { screen.width >= 600 ? <video className="VIDEO"
                             autoPlay
                             loop
                             muted
                             src="\assets\ParticleVideo.mp4"
-                        />
+                        /> : ''}
                     <div className = "NameBox">
                     {/* Name Tag */}
                         <a>
